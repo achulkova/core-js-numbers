@@ -320,7 +320,7 @@ function getSumOfDigits(num) {
   let sum = 0;
   let remaining = num;
 
-  while (num > 0) {
+  while (remaining > 0) {
     sum += remaining % 10;
     remaining = Math.floor(remaining / 10);
   }
